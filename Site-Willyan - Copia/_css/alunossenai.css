@@ -1,0 +1,95 @@
+body{
+    background: rgb(56,30,149);
+    background: -moz-radial-gradient(circle, rgba(56,30,149,1) 0%, rgba(126,81,90,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(56,30,149,1) 0%, rgba(126,81,90,1) 100%);
+    background: radial-gradient(circle, rgba(56,30,149,1) 0%, rgba(126,81,90,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#381e95",endColorstr="#7e515a",GradientType=1);
+}
+
+h1{
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FF6347;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Corpo */
+.container{
+    background-color: #B0C4DE;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.cartao{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.produto-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(/img/Alunos/1.jpg);
+}
+#img-2{
+    background-image: url(/img/Alunos/2.jpg);
+}
+#img-3{
+    background-image: url(/img/Alunos/3.png);
+}
+#img-4{
+    background-image: url();
+}
+#img-5{
+    background-image: url();
+}
+#img-6{
+    background-image: url();
+}
+
+.product-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FF6347;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bot{
+    display: block;
+    width: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #191970;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+nav{
+    text-align: center;
+}
